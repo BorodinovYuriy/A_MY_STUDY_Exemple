@@ -12,8 +12,7 @@ import java.util.HashMap;
 public class CacheFactorial {
     static HashMap<Integer, BigInteger> cache = new HashMap<Integer,BigInteger>();
 
-    public static BigInteger factorial(int n)
-    {
+    public static BigInteger factorial(int n){
         BigInteger ret;
 
         if (n == 0) return BigInteger.ONE;

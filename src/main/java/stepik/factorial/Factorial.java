@@ -1,8 +1,6 @@
 package stepik.factorial;
 
 import java.math.BigInteger;
-import java.util.Date;
-
 /**https://habr.com/ru/articles/113128/____
 Реализуйте метод, вычисляющий факториал заданного натурального числа.
         Факториал
@@ -13,7 +11,6 @@ import java.util.Date;
 public class Factorial {
 
     public static BigInteger factorial(int value) {
-
             BigInteger ret = BigInteger.ONE;
             for (int i = 1; i <= value; ++i) ret = ret.multiply(BigInteger.valueOf(i));
             return ret;
@@ -32,7 +29,7 @@ public class Factorial {
         long endTime = System.currentTimeMillis();
 
         System.out.println("Total execution time: " + (endTime-startTime) + "ms");
-//----------------------------------------------------------------
+//------------------------------------------------------------------------------------------------
         System.out.println("recursion factorial");
 
         long startTime2 = System.currentTimeMillis();
