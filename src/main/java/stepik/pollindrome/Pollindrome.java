@@ -8,10 +8,7 @@ public class Pollindrome {
     }
 
     public static void main(String[] args) {
-
         String message = "Madam, I'm Adam!";
-
         System.out.println(isPalindrome(message));
     }
-
 }
