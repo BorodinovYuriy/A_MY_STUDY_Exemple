@@ -1,4 +1,4 @@
-package stepik.marge_and_sort_arrays;
+package stepik.marge_sorted_arrays;
 
 import java.util.Arrays;
 
@@ -44,18 +44,17 @@ public class Merge_n_sort_arrays {
         return result;
     }
 
-    public static int[] mergeArraysSUPER(int[] a1, int[] a2) {
-        int n = a1.length, m = a2.length;
-        int i = 0, j = 0;
-        int[] array = new int[n + m];
+    public static int[] mergeArraysSUPER(int[] a, int[] b) {
+        int aLength = a.length, bLength = b.length;
+        int aCount = 0, bCount = 0;
+        int[] array = new int[aLength + bLength];
 
-        while (i < n || j < m)
-            array[i + j] = (i < n && (j == m || a1[i] < a2[j])) ? a1[i++] : a2[j++];
-
+        while (aCount < aLength || bCount < bLength)
+            array[aCount + bCount] = (aCount < aLength && (bCount == bLength || a[aCount] < b[bCount])) ? a[aCount++] : b[bCount++];
         return array;
     }
     public static void main(String[] args) {
-        int[] a = {0,2,4,6,8,9};
+        int[] a = {0,2,4,6,8,9,50,50,50,50};
         int[] b = {1,3,5,6,6,7,8,8,10};
         System.out.println(Arrays.toString((mergeArraysSUPER(a, b))));
 
