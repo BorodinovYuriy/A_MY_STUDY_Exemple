@@ -1,9 +1,9 @@
 package patterns_from_book.factory.pizza_store.store;
 
-import pizza_store.Pizza;
-import pizza_store.PizzaStore;
-import pizza_store.variety_of_pizzas.over_variety_of_pizza.ChicagoCheesePizza;
 
+import patterns_from_book.factory.pizza_store.Pizza;
+import patterns_from_book.factory.pizza_store.PizzaStore;
+import patterns_from_book.factory.pizza_store.variety_of_pizzas.over_variety_of_pizza.ChicagoCheesePizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
 

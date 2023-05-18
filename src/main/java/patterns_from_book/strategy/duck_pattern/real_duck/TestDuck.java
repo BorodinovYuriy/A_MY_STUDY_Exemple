@@ -1,8 +1,9 @@
 package patterns_from_book.strategy.duck_pattern.real_duck;
 
-import duck_pattern.Duck;
-import duck_pattern.flying_class.FlyWithWings;
-import duck_pattern.quacking_class.Quack;
+
+import patterns_from_book.strategy.duck_pattern.Duck;
+import patterns_from_book.strategy.duck_pattern.flying_class.FlyWithWings;
+import patterns_from_book.strategy.duck_pattern.quacking_class.Quack;
 
 public class TestDuck extends Duck {
     public TestDuck(){

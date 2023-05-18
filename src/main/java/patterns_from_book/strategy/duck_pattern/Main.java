@@ -1,8 +1,9 @@
 package patterns_from_book.strategy.duck_pattern;
 
-import duck_pattern.flying_class.FlyNoWay;
-import duck_pattern.quacking_class.MuteQuack;
-import duck_pattern.real_duck.TestDuck;
+
+import patterns_from_book.strategy.duck_pattern.flying_class.FlyNoWay;
+import patterns_from_book.strategy.duck_pattern.quacking_class.MuteQuack;
+import patterns_from_book.strategy.duck_pattern.real_duck.TestDuck;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package patterns_from_book.factory.pizza_store.variety_of_pizzas.over_variety_of_pizza;
 
-import pizza_store.Pizza;
+
+import patterns_from_book.factory.pizza_store.Pizza;
 
 public class NYCheesePizza extends Pizza {
     public NYCheesePizza(){

@@ -1,7 +1,8 @@
 package patterns_from_book.factory.pizza_store;
 
-import pizza_store.store.ChicagoPizzaStore;
-import pizza_store.store.NYPizzaStore;
+
+import patterns_from_book.factory.pizza_store.store.ChicagoPizzaStore;
+import patterns_from_book.factory.pizza_store.store.NYPizzaStore;
 
 public class Main_PizzaTestDrive {
     public static void main(String[] args) {

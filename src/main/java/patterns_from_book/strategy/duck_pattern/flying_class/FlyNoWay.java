@@ -1,7 +1,7 @@
 package patterns_from_book.strategy.duck_pattern.flying_class;
 
 
-import duck_pattern.FlyBehavior;
+import patterns_from_book.strategy.duck_pattern.FlyBehavior;
 
 public class FlyNoWay implements FlyBehavior {
     @Override

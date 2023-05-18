@@ -1,9 +1,10 @@
 package patterns_from_book.factory.pizza_store;
 
-import pizza_store.variety_of_pizzas.CheesePizza;
-import pizza_store.variety_of_pizzas.ClamPizza;
-import pizza_store.variety_of_pizzas.PepperoniPizza;
-import pizza_store.variety_of_pizzas.VeggiePizza;
+
+import patterns_from_book.factory.pizza_store.variety_of_pizzas.CheesePizza;
+import patterns_from_book.factory.pizza_store.variety_of_pizzas.ClamPizza;
+import patterns_from_book.factory.pizza_store.variety_of_pizzas.PepperoniPizza;
+import patterns_from_book.factory.pizza_store.variety_of_pizzas.VeggiePizza;
 
 //класс-калька для региональных фабрик
 public class SimplePizzaFactory {

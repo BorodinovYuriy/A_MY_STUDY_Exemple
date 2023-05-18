@@ -1,6 +1,7 @@
 package patterns_from_book.strategy.duck_pattern.quacking_class;
 
-import duck_pattern.QuackBehavior;
+
+import patterns_from_book.strategy.duck_pattern.QuackBehavior;
 
 public class Squeak implements QuackBehavior {
     @Override
